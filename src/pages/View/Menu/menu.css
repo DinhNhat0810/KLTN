@@ -1,0 +1,27 @@
+.menu-item {}
+
+.menu-item__heading {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    justify-content: space-between;
+    padding: 8px 4px 10px 8px;
+    user-select: none;
+}
+
+.menu-item:hover .menu-item__heading {
+    color: cornflowerblue;
+
+}
+
+.menu-item__sub-menu {
+    padding-left: 40px;
+
+}
+
+.menu-item__sub-menu p {
+    margin-bottom: 0;
+    padding: 4px 0;
+
+
+}

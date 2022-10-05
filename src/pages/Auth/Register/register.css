@@ -1,0 +1,74 @@
+.register-container {
+    background-image: url("https://colorlib.com/etc/lf/Login_v4/images/bg-01.jpg");
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.register-container>div {
+    margin-top: 20px;
+
+    padding: 40px;
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.register-container>div h2 {
+    display: block;
+    font-size: 40px;
+    color: #333333;
+    margin-bottom: 30px;
+    text-align: center;
+
+
+}
+
+.register-container__btn {
+    text-align: center;
+    border-radius: 25px;
+    margin-top: 40px;
+    z-index: 1;
+    position: relative;
+    box-shadow: 0 5px 30px 0px rgb(3 216 222 / 20%);
+    padding: 5px 10px;
+    overflow: hidden;
+    cursor: pointer;
+
+}
+
+.register-container__btn:hover .register-container__btn-background {
+    left: 0;
+}
+
+.register-container__btn-background {
+    position: absolute;
+    z-index: -1;
+    width: 300%;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    transition: all 0.4s;
+    background: -webkit-linear-gradient(right, #00dbde, #fc00ff, #00dbde, #fc00ff);
+}
+
+.register-container__link {
+    text-align: right;
+    margin-top: 40px;
+}
+
+.register-container__checkboxs {
+    display: flex;
+    align-items: center;
+}
+
+.register-container__checkboxs p {
+    margin-bottom: 0;
+}
